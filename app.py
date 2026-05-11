@@ -6,6 +6,9 @@ import google.generativeai as genai
 st.set_page_config(page_title="Stock Market Report Analyzer", layout="wide")
 st.title("📊 Quarterly Report Analyzer (CSE)")
 st.write("සමාගමේ Quarterly Reports 3 මෙහි Upload කරන්න. AI මගින් එය විශ්ලේෂණය කර සරල සිංහලෙන් වාර්තාවක් ලබා දෙනු ඇත.")
+st.markdown("---")
+st.caption("Developed by **[H.S Hewavidana]** 💻")
+st.markdown("---")
 
 # Sidebar එකේ API Key එක ලබා දීම
 st.sidebar.header("සැකසුම් (Settings)")
